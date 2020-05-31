@@ -2,10 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>movie-app</title>
+    <title>Vision Vue App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
   </head>
   <body>
     <div id="app"></div>
+    <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-database.js"></script>
+
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyCnhbs422IWFrh3fap1eCm_30o_jFKC4aw",
+        authDomain: "vizyon-movie-vue-app.firebaseapp.com",
+        databaseURL: "https://vizyon-movie-vue-app.firebaseio.com",
+        projectId: "vizyon-movie-vue-app",
+        storageBucket: "vizyon-movie-vue-app.appspot.com",
+        messagingSenderId: "971817237830",
+        appId: "1:971817237830:web:d821f9dd6cce3ecd707947"
+      };
+      firebase.initializeApp(firebaseConfig);
+    </script>
     <script src="/dist/build.js"></script>
   </body>
 </html>

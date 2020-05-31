@@ -1,0 +1,42 @@
+import service from '../services/service';
+
+const state = {
+    movies: [],
+};
+
+const getters = {
+    groupedMovies(state) {
+        let grouped = [];
+
+        state.movies.forEach((item, index) => {
+            if (index % 3 === 0) {
+                grouped.push([]);
+            }
+
+            grouped[grouped.length - 1].push(item);
+        });
+        
+        return grouped;
+    }
+};
+
+const mutations = {
+    setMovies(state, movies) {
+        state.movies = movies;
+    }
+};
+
+const actions = {
+    fetchMovies(context) {
+        return service.fetchMovies().then((snapshot) => {
+            context.commit('setMovies', snapshot.val());
+        })
+    },
+};
+
+export default {
+    state,
+    getters,
+    mutations,
+    actions,
+}
