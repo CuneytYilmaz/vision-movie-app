@@ -16,22 +16,6 @@
       "vote_average": 6
     },
     {
-      "poster_path": "/gaHepzSTMkGwsSKAqiBgroSCf07.jpg",
-      "adult": false,
-      "overview": "The Guardians must fight to keep their newfound family together as they unravel the mysteries of Peter Quill's true parentage.",
-      "release_date": "2017-04-24",
-      "genre_ids": [ 28, 12, 878 ],
-      "id": 283995,
-      "original_title": "Guardians of the Galaxy Vol. 2",
-      "original_language": "en",
-      "title": "Guardians of the Galaxy Vol. 2",
-      "backdrop_path": "/8sFWWIolWPm2FQLNt9cSKpNZJcz.jpg",
-      "popularity": 29.910321,
-      "vote_count": 85,
-      "video": false,
-      "vote_average": 7.3
-    },
-    {
       "poster_path": "/iNpz2DgTsTMPaDRZq2tnbqjL2vF.jpg",
       "adult": false,
       "overview": "When a mysterious woman seduces Dom into the world of crime and a betrayal of those closest to him, the crew face trials that will test them as never before.",
@@ -46,22 +30,6 @@
       "vote_count": 985,
       "video": false,
       "vote_average": 6.9
-    },
-    {
-      "poster_path": "/5gJkVIVU7FDp7AfRAbPSvvdbre2.jpg",
-      "adult": false,
-      "overview": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early.",
-      "release_date": "2016-12-21",
-      "genre_ids": [ 12, 18, 10749, 878 ],
-      "id": 274870,
-      "original_title": "Passengers",
-      "original_language": "en",
-      "title": "Passengers",
-      "backdrop_path": "/5EW4TR3fWEqpKsWysNcBMtz9Sgp.jpg",
-      "popularity": 12.852363,
-      "vote_count": 2433,
-      "video": false,
-      "vote_average": 6.6
     },
     {
       "poster_path": "/1jvyy3UtMbWBHikj7byFJeY5Fc7.jpg",
@@ -80,6 +48,22 @@
       "vote_average": 6.5
     },
     {
+      "poster_path": "/5gJkVIVU7FDp7AfRAbPSvvdbre2.jpg",
+      "adult": false,
+      "overview": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early.",
+      "release_date": "2016-12-21",
+      "genre_ids": [ 12, 18, 10749, 878 ],
+      "id": 274870,
+      "original_title": "Passengers",
+      "original_language": "en",
+      "title": "Passengers",
+      "backdrop_path": "/5EW4TR3fWEqpKsWysNcBMtz9Sgp.jpg",
+      "popularity": 12.852363,
+      "vote_count": 2433,
+      "video": false,
+      "vote_average": 6.6
+    },
+    {
       "poster_path": "/r2517Vz9EhDhj88qwbDVj8DCRZN.jpg",
       "adult": false,
       "overview": "Explore the mysterious and dangerous home of the king of the apes as a team of explorers ventures deep inside the treacherous, primordial island.",
@@ -94,5 +78,21 @@
       "vote_count": 1372,
       "video": false,
       "vote_average": 6
+    },
+    {
+      "poster_path": "/gaHepzSTMkGwsSKAqiBgroSCf07.jpg",
+      "adult": false,
+      "overview": "The Guardians must fight to keep their newfound family together as they unravel the mysteries of Peter Quill's true parentage.",
+      "release_date": "2017-04-24",
+      "genre_ids": [ 28, 12, 878 ],
+      "id": 283995,
+      "original_title": "Guardians of the Galaxy Vol. 2",
+      "original_language": "en",
+      "title": "Guardians of the Galaxy Vol. 2",
+      "backdrop_path": "/8sFWWIolWPm2FQLNt9cSKpNZJcz.jpg",
+      "popularity": 29.910321,
+      "vote_count": 85,
+      "video": false,
+      "vote_average": 7.3
     }
   ]
